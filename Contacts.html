@@ -1,30 +1,73 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
     <title> My Contact 💖</title>
+
+    <link rel="icon" href="img\favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap" rel="stylesheet"
+<link href="https://fonts.googleapis.com/css2?family=Mali&family=Mitr&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300&family=Kanit:wght@300&family=Sarabun:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/MyResume/css/stylesCon.css">
   </head>
-  <style media="screen">
+  <!-- <style media="screen">
     body{
 background-color: #FEC8D8;
     }
-  </style>
+  </style> -->
   <body>
-  <h2>--  My contact --</h2>
-    <p>E-mail : Wipawee@pim.ac.th</p>
-    <p>Tel : 099-9999999</p>
-    <p>Adress : Somewhere in the world 🤔</p>
-  <img src="contact.jpg" alt="My Profile Resume" width="250" height="250" >
 
-  <h3> Contact Me 📌</h3>
+    <nav class = "navbar navbar-expand-lg fixed-top ">
+      <a class="navbar-brand" href="">Wipawee</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  
+     <ul class = "navbar-nav ms-auto">
+         <li class = "nav-item">
+            <a class = "nav-link" href="../MyResume/Contacts.html">Contact</a>
+         </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href="../MyResume/Report.html">MyReport</a>
+         </li>
+          <li class = "nav-item">
+            <a class = "nav-link" href="../MyResume/index.html">Myhome</a> 
+         </li>
+     </ul>
+     </div>
+  </nav>
+  <div class="Head1">
+    <h2>My contact </h2>
+<div class = "Mycontact">
+ 
+    <p class="right">E-mail :</p>
+      <p> Wipawee@pim.ac.th</p>
+    <p class="right">Tel : </p>
+      <p> 099-9999999</p>
+    <p class="right">Adress : </p>
+    <p> Somewhere in the world 🤔</p>
+</div>
+<img src="/MyResume/img/contact.png" alt="My Profile Resume" width="250" height="250" >
+
+<h2> Contact Me 📌</h2>
+<div >
       <form class="" action="mailto:Wipawee@pim.ac.th" method="post" enctype="text/plain">
-      <label>Name - Surname:</label>
-      <input type="text" name ="Name_surname" value =""><br>
-      <label>E-mail:</label>
-      <input type="email" name="email" value=""><br>
-      <label>Message to send 📧:</label><br>
-      <textarea name="message" rows="8" cols="80"></textarea><br>
-      <input type="submit" name="" >
+      <div class="contactMe"> 
+      <label class="right">Name - Surname:</label>
+      <input placeholder="NameTest"class ="Name"type="text" name ="Name_surname" value ="">
+      <label class="right">E-mail:</label>
+      <input placeholder="Test@gamil.com" class ="Email" type="email" name="email" value=""></div><br>
+      
+      <label>Message to send 📧</label> <br>
+      <textarea placeholder="Hello World! How are you?" name="message" rows="8" cols="80"></textarea><br>
+      <input class="Submit"type="submit" name="" >
     </form>
+  </div>
+  </div>
   </body>
 </html>

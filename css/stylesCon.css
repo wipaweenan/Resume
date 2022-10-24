@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+text-align: center;
+background-color: #C3F8FF;
+
+}
+h2{
+    font-weight: 800;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar{
+    background-color: aquamarine;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: 60px;
+}
+
+.Mycontact , .contactMe,.Head1{
+
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+.fixed-top{
+    position: sticky;
+}
+
+.Email,.Name{
+    border-radius: 10px;
+    border: none;
+    /* margin-top: 10px; */
+    margin-bottom: 1rem;
+    padding: 0 0.5rem;
+}
+
+textarea{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    padding: 0 0.5rem;
+}
+label{
+    margin-bottom: 2rem;
+}
+.right{
+    text-align: right;
+}
+.Mycontact{
+    text-indent: 1.5rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 15rem 25rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.Head1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactMe{
+    text-indent: 1.5rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 15rem 25rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.Submit:hover{
+    color: #25316D;
+    background-color: #C3F8FF;
+    border-color: #25316D;;
+    
+}
+.Submit{
+    margin: 1.5rem 0rem ;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    border-style:solid ;
+    border-radius: 10px;
+    border-color: #25316D;
+    background-color: #25316D;
+    transition: 0.4s;
+    
+}
