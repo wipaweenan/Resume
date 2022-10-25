@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #E1FFEE;
+}
+.navbar{
+    background-color: aquamarine;
+    font-weight: 600;
+    font-family: 'Bai Jamjuree', sans-serif;
+    height: 60px;
+}
+.fixed-top{
+    position: sticky;
+}
+
+h1{
+font-weight: 800;
+text-align: center;
+font-family: 'Kanit', sans-serif;
+letter-spacing: 1px;
+
+}
+h3,h4{
+text-align: center;
+font-family: 'Kanit', sans-serif;
+letter-spacing: 1px;
+
+}
+.DailyReport{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+.dailyDay{
+    
+    /* outline: 1px solid salmon; */
+    text-align: left;
+    display: grid;
+    grid-template-columns: 10rem 30rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+.WeeklyReport{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+th{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+/* p{
+    display: flex;
+flex-direction: table-column;
+} */
